@@ -4,4 +4,4 @@ for digit1 in range(0, 10):
         if (digit1 != 8) or (digit2 != 9):
             print("{}{}, ".format(digit1, digit2), end=""
         else:
-        print("{}{}".format(digit1, digit2))
+            print("{}{}".format(digit1, digit2))
