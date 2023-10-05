@@ -1,11 +1,8 @@
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
-    if not matrix:
-        return
-
-    max_width = max(len(str(element)) for row in matrix for element in row)
-
     for row in matrix:
-        for element in row:
-            print("{:>{width}}".format(element, width=max_width), end=" ")
-        print()
+        for i, num in enumerate(row):
+            if i < len(row) - 1:
+                print("{:d}".format(num), end=" ")
+            else:
+                print("{:d}".format(num))
