@@ -85,20 +85,20 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return ("")
 
-        rectangle = []
+        shape = []
         for i in range(self.__height):
-            [rectangle.append(str(self.print_symbol)) for h in range(self.__width)]
+            [shape.append(str(self.print_symbol)) for h in range(self.__width)]
             if i != self.__height - 1:
-                rectangle.append("\n")
-        return ("".join(rectangle))
+                shape.append("\n")
+        return ("".join(shape))
 
     def __repr__(self):
         """
         Return the string representation of the Rectangle.
         """
-        rectangle = "Rectangle(" + str(self.__width)
-        rectangle += ", " + str(self.__height) + ")"
-        return (rectangle)
+        shape = "Rectangle(" + str(self.__width)
+        shape += ", " + str(self.__height) + ")"
+        return (shape)
 
     def __del__(self):
         """
