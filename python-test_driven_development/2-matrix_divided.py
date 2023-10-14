@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 2-matrix_divided.py Module
-Has a method that divides all elements of a matrix and returns new matrix
+Has method that divides all elements of a matrix and returns new matrix
 Requires same size lists of ints or floats, and max two decimal places
 """
 
