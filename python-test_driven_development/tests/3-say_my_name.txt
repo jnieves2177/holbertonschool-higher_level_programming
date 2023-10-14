@@ -10,7 +10,7 @@ Test two strings given:
      My name is First Middle Last
 
      >>> say_my_name("Jose")
-     My name is Jose
+     My name is Jose 
 
 FAIL CASES:
 
